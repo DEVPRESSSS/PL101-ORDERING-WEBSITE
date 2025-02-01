@@ -1,0 +1,29 @@
+﻿
+
+
+.discount-header {
+    height: 70px;
+   
+}
+
+.intro-wrapper {
+    height: 100%;
+    background-color: #fae9c0
+}
+
+
+
+.intro-section {
+    width: 100%;
+    height: 30vh;
+}
+
+section {
+    height: 100vh;
+}
+
+.discount {
+    font-size:xx-large;
+    font-weight:600;
+}
+
