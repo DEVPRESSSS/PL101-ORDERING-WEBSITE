@@ -3,7 +3,7 @@
 
 .discount-header {
     height: 70px;
-   
+    background-color: #AD8B73 !important;
 }
 
 .intro-wrapper {
@@ -16,6 +16,7 @@
 .intro-section {
     width: 100%;
     height: 30vh;
+    background-color: #AD8B73;
 }
 
 section {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dc4c9c0085552d7681434d623a399cae919286e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

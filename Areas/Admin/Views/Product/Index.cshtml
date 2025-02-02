@@ -1,0 +1,74 @@
+﻿@model List<Products>
+
+
+
+<div class="container bg-light shadow-lg">
+	<div class="row pt-2 pb-2">
+		<div class="col-6">
+			<h2 class="text-start">Product List</h2>
+
+		</div>
+		<div class="col-6 d-flex justify-content-end">
+
+			<a class="btn btn-primary rounded-2" asp-area="Admin" asp-controller="Product" asp-action="UpsertProducts"><i class="bi bi-plus-circle"></i> CREATE NEW</a>
+		</div>
+
+	</div>
+	<table id="test" class="table table-bordered table-stripe bg-light">
+		<thead>
+			<tr class="text-center">
+				<th>
+					ProductID
+				</th>
+				<th>
+					Name
+				</th>
+				<th>
+					Description
+				</th>
+
+				<th>
+					Price
+				</th>
+				<th>
+					Size
+				</th>
+				<th>
+					Stock
+				</th>
+		
+				<th>
+					Category
+				</th>
+
+				<th>
+					Image
+				</th>
+				<th>
+					CreatedAt
+				</th>
+
+				<th>
+					Action
+				</th>
+
+
+
+				
+
+			</tr>
+		</thead>
+
+
+	</table>
+</div>
+
+
+
+
+
+
+
+@section Scripts {
+	<script src="~/js/Product.js"></script>
+}

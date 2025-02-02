@@ -5,6 +5,42 @@
       "PackagePath": "staticwebassets\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT.bundle.scp.css"
     },
     {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\Logo.png",
+      "PackagePath": "staticwebassets\\Images\\Logo.png"
+    },
+    {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-01359484\\4829b650-7906-4214-b7aa-1bd74eee7824.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-01359484\\4829b650-7906-4214-b7aa-1bd74eee7824.jpg"
+    },
+    {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-0F0A73A5\\6b16c7e5-f665-4688-963d-5b779107c0b7.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-0F0A73A5\\6b16c7e5-f665-4688-963d-5b779107c0b7.jpg"
+    },
+    {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-2E012792\\85171769-3779-4b75-8bfd-edd548ea2a3f.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-2E012792\\85171769-3779-4b75-8bfd-edd548ea2a3f.jpg"
+    },
+    {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-42200264\\f3538cab-e7ea-4c41-9c50-ca6cd48cf3f4.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-42200264\\f3538cab-e7ea-4c41-9c50-ca6cd48cf3f4.jpg"
+    },
+    {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-52C9DD3D\\a919e61d-4ca4-4990-9eeb-5d2da45eec15.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-52C9DD3D\\a919e61d-4ca4-4990-9eeb-5d2da45eec15.jpg"
+    },
+    {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-80714C23\\75c62335-0859-4aaf-82fc-3ce26f336b33.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-80714C23\\75c62335-0859-4aaf-82fc-3ce26f336b33.jpg"
+    },
+    {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-91DA4CE1\\60d7f2de-daa9-4b5b-86f4-54435238284e.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-91DA4CE1\\60d7f2de-daa9-4b5b-86f4-54435238284e.jpg"
+    },
+    {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-C7C7C949\\9b2a27cc-25ea-46b2-860e-48accacf7235.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-C7C7C949\\9b2a27cc-25ea-46b2-860e-48accacf7235.jpg"
+    },
+    {
       "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\Shoes-1.png",
       "PackagePath": "staticwebassets\\Images\\Shoes-1.png"
     },
@@ -23,6 +59,14 @@
     {
       "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\js\\Category.js",
+      "PackagePath": "staticwebassets\\js\\Category.js"
+    },
+    {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\js\\Product.js",
+      "PackagePath": "staticwebassets\\js\\Product.js"
     },
     {
       "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\js\\site.js",
