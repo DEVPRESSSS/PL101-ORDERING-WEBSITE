@@ -28,3 +28,10 @@ section {
     font-weight:600;
 }
 
+.btn-primary {
+    background-color: #AD8B73;
+}
+
+.details-header {
+    background-color: #CEAB93;
+}

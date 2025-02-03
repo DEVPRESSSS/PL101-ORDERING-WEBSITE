@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT.bundle.scp.css"
     },
     {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\DessertAndCoffee.jpg",
+      "PackagePath": "staticwebassets\\Images\\DessertAndCoffee.jpg"
+    },
+    {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\Jim.jpg",
+      "PackagePath": "staticwebassets\\Images\\Jim.jpg"
+    },
+    {
       "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\Logo.png",
       "PackagePath": "staticwebassets\\Images\\Logo.png"
     },
@@ -29,6 +37,10 @@
       "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-52C9DD3D\\a919e61d-4ca4-4990-9eeb-5d2da45eec15.jpg"
     },
     {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-59C36652\\cc2aa73c-ace8-4afd-9682-0311cbf43125.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-59C36652\\cc2aa73c-ace8-4afd-9682-0311cbf43125.jpg"
+    },
+    {
       "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-80714C23\\75c62335-0859-4aaf-82fc-3ce26f336b33.jpg",
       "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-80714C23\\75c62335-0859-4aaf-82fc-3ce26f336b33.jpg"
     },
@@ -37,8 +49,16 @@
       "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-91DA4CE1\\60d7f2de-daa9-4b5b-86f4-54435238284e.jpg"
     },
     {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-B9C53638\\bee1c1f7-65eb-415c-926c-77a8472e62af.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-B9C53638\\bee1c1f7-65eb-415c-926c-77a8472e62af.jpg"
+    },
+    {
       "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-C7C7C949\\9b2a27cc-25ea-46b2-860e-48accacf7235.jpg",
       "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-C7C7C949\\9b2a27cc-25ea-46b2-860e-48accacf7235.jpg"
+    },
+    {
+      "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\ProductImg-PROD-F54102FC\\fd7c4e84-a001-4b45-8384-b0ebb5a10862.jpg",
+      "PackagePath": "staticwebassets\\Images\\ProductImg-PROD-F54102FC\\fd7c4e84-a001-4b45-8384-b0ebb5a10862.jpg"
     },
     {
       "Id": "D:\\ONLINE-BUSINESS-PROJECT-FOR-PL101-SUBJECT\\wwwroot\\Images\\Shoes-1.png",

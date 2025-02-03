@@ -1,127 +1,37 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<ProductVM>
 
-
-<section class="intro-section w-100">
-    <div class="container d-flex intro-wrapper text-center">
-        <div class="col-6 d-flex justify-content-center align-items-center flex-column">
-            <div class="p-2">
-                <h4 class="discount text-primary  text-center">Grab Up To 50% on Selected Shoes</h4>
-            </div>
-            <div class="p-2 mt-4">
-                <a class="btn btn-primary rounded-3 mt-4" href="#">Buy Now</a>
-            </div>
-        </div>
-        <div class="col-6">
-
-            <div class="img-wrapper h-100 p-2 d-flex justify-content-center  overflow-hidden">
-
-                <img src="/Images/Shoes-1.png" width="250" height="250" />
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="product-section shadow-sm p-2">
-
+<section class="product-section shadow-sm p-2 h-100">
     <div class="container">
+        <div class="row">
+            @foreach (var productVM in Model)
+            {
+                <div class="col-3 mb-4">
+                    <!-- Added mb-4 for margin-bottom -->
+                    <div class="card shadow-sm border-0 h-100">
+                        <!-- Added h-100 to make cards equal height -->
+                        <!-- Card Image -->
+                        <div class="card-img d-flex justify-content-center align-items-center" style="height: 200px; overflow: hidden;">
+                            <!-- Fixed height and overflow hidden -->
+                            @foreach (var imageUrl in productVM.ImageUrls)
+                            {
+                                <img src="@imageUrl" alt="@productVM.Product.Name" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;" /> <!-- Ensures consistent image sizing -->
+                            }
+                        </div>
 
-        <div class="row d-flex">
+                        <!-- Card Body -->
+                        <div class="card-body text-center">
+                            <h5 class="card-title">@productVM.Product.Name</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">@productVM.Product.Price</h6>
+                            <h6 class="card-text text-muted">@productVM.Product.Size</h6>
+                        </div>
 
-            <div class="col-3 ">
-
-                <div class="card d-flex justify-content-center shadow-sm border-0">
-
-
-                    <div class="card-img d-flex justify-content-center">
-                        <img src="/Images/Shoes-1.png" width="200"/>
-                    </div>
-
-                    <div class="card-body">
-
-                        <h5 class="text-center">Jordan</h5>
-                        <h6 class="text-center ">4000</h6>
-
-                    </div>
-
-                    <div class="card-footer">
-
-                        <a class="btn btn-primary w-100 rounded-2">Buy</a>
-                    </div>
-                </div>
-
-            </div>
-
-              <div class="col-3">
-
-                <div class="card d-flex justify-content-center shadow-sm border-0">
-                    <div class="card-img d-flex justify-content-center">
-                        <img src="/Images/Shoes-1.png" width="200" />
-                    </div>
-
-                    <div class="card-body">
-
-                        <h5 class="text-center">Jordan</h5>
-                        <h6 class="text-center ">4000</h6>
-
-                    </div>
-
-                    <div class="card-footer">
-
-                        <a class="btn btn-primary w-100 rounded-2">Buy</a>
+                        <!-- Card Footer -->
+                        <div class="card-footer bg-transparent border-0">
+                            <a class="btn btn-primary w-100 rounded-2" asp-area="Customer" asp-controller="Home" asp-action="ProductDetails" asp-route-id="@productVM.Product.ProductID">Buy</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-3">
-                <div class="card d-flex justify-content-center shadow-sm border-0">
-
-
-                    <div class="card-img d-flex justify-content-center ">
-                        <img src="/Images/Shoes-1.png" width="200" />
-                    </div>
-
-                    <div class="card-body">
-
-                        <h5 class="text-center">Jordan</h5>
-                        <h6 class="text-center ">4000</h6>
-
-                    </div>
-
-                    <div class="card-footer">
-
-                        <a class="btn btn-primary w-100 rounded-2">Buy</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-3">
-                <div class="card d-flex justify-content-center shadow-sm border-0">
-
-
-                    <div class="card-img d-flex justify-content-center">
-                        <img src="/Images/Shoes-1.png" width="200" />
-                    </div>
-
-                    <div class="card-body">
-
-                        <h5 class="text-center">Jordan</h5>
-                        <h6 class="text-center ">4000</h6>
-
-                    </div>
-
-                    <div class="card-footer">
-
-                        <a class="btn btn-primary w-100 rounded-2">Buy</a>
-                    </div>
-                </div>
-            </div>
+            }
         </div>
-
     </div>
-
 </section>
-
-

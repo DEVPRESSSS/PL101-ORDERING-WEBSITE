@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using ONLINE_BUSINESS_PROJECT_FOR_PL101_SUBJECT.Models;
 using static System.Reflection.Metadata.BlobBuilder;
 
 namespace ONLINE_BUSINESS_PROJECT_FOR_PL101_SUBJECT.Data
 {
-    public class ApplicationDbContext:DbContext
+    public class ApplicationDbContext:IdentityDbContext
     {
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
