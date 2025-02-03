@@ -16,6 +16,7 @@ namespace ONLINE_BUSINESS_PROJECT_FOR_PL101_SUBJECT.Data
         public DbSet<Products> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<ProductImages> ProductImages { get; set; }
+        public DbSet<AppUser> AppUser { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

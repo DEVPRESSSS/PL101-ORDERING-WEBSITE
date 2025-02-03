@@ -158,6 +158,8 @@ namespace ONLINE_BUSINESS_PROJECT_FOR_PL101_SUBJECT.Areas.Identity.Pages.Account
         {
             try
             {
+
+                TempData["Success"] = "Registered successfully";
                 return Activator.CreateInstance<IdentityUser>();
             }
             catch

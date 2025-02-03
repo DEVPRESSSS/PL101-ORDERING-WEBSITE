@@ -5,6 +5,8 @@ using ONLINE_BUSINESS_PROJECT_FOR_PL101_SUBJECT.Models;
 
 namespace ONLINE_BUSINESS_PROJECT_FOR_PL101_SUBJECT.Areas.Admin.Controllers
 {
+
+	[Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly ApplicationDbContext _context;

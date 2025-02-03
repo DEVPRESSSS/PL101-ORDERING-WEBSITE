@@ -8,8 +8,9 @@ using static System.Reflection.Metadata.BlobBuilder;
 
 namespace ONLINE_BUSINESS_PROJECT_FOR_PL101_SUBJECT.Areas.Admin.Controllers
 {
+    [Area("Admin")]
 
-	public class ProductController : Controller
+    public class ProductController : Controller
     {
 
         private readonly ApplicationDbContext _context;

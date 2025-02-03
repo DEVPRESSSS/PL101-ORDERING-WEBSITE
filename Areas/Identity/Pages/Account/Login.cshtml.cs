@@ -115,6 +115,8 @@ namespace ONLINE_BUSINESS_PROJECT_FOR_PL101_SUBJECT.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
+                    TempData["Success"] = "Login successfully";
+
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)
