@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using ONLINE_BUSINESS_PROJECT_FOR_PL101_SUBJECT.Data;
 using Microsoft.AspNetCore.Identity;
+using ONLINE_BUSINESS_PROJECT_FOR_PL101_SUBJECT.Utilities;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 namespace ONLINE_BUSINESS_PROJECT_FOR_PL101_SUBJECT
 {
@@ -15,9 +17,11 @@ namespace ONLINE_BUSINESS_PROJECT_FOR_PL101_SUBJECT
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 
-            builder.Services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
-
+            // builder.Services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
+             builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+           
             builder.Services.AddRazorPages();
+            builder.Services.AddScoped<IEmailSender, EmailSender>(); 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
